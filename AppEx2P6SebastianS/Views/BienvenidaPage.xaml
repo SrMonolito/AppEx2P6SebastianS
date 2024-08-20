@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEx2P6SebastianS.Views.BienvenidaPage"
+             Title="Inicio de Sesion">
+    <VerticalStackLayout Padding="20,0,20,0">
+
+        <Entry x:Name="TxtUserName" Placeholder="Nombre de Usuario/Email" Margin="0,0,0,10" FontSize="20"/>
+        <Entry x:Name="TxtPassword" Placeholder="Contraseña" Margin="0,0,0,20"
+               FontSize="20" IsPassword="True"/>
+
+        <Button x:Name="BtnLogIn" Text="Iniciar Sesion" FontSize="20"/>
+
+    </VerticalStackLayout>
+</ContentPage>
